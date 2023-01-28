@@ -1,0 +1,370 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: none;
+    list-style-type: none;
+}
+
+
+
+/*navegador*/
+
+nav{
+    background-color: rgb(179, 48, 48);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+a{
+   text-decoration: none;
+   font-size: 20px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: antiquewhite;
+   background: black;
+   border-radius: 1rem;
+   padding: 10px;
+}
+
+a:hover{
+    color: rgb(248, 204, 99);
+    transition: 1s;
+}
+
+.cart-link{
+    background: none;
+}
+
+.carrito{
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
+
+/*sección 1*/
+
+body{
+    background-color: black;
+    width: 100%;
+}
+
+.section-1{
+    background-color: black;
+    background-image: url(/assets/img/2020_07_electric-guitar-wallpaper-2560x1080-fhd-1080p-desktop-backgrounds-for-pc-mac.jpg);
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    color: burlywood;
+    font-size: 70px;
+   
+    align-self: center;
+}
+
+.s1-data{
+    color: antiquewhite;
+    display: flex;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+/*sección 2*/
+
+.section-2{
+    background: black;
+    background-image: url(/assets/img/black-metal-texture-wallpaper-×-metal-texture-wallpaper.jpg);
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 400px;
+    justify-content: space-around;
+}
+
+.s2-card-1{
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+    background-image: url(/assets/img/instruments.jpg);
+    color:beige;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.s2-card-1:hover{
+    box-shadow: 20px 20px 20px 20px black;
+    transition: 1s;
+}
+
+.s2-card-1 h3{
+    margin-top: 10px;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+}
+.s2-card-1 p{
+    display: flex;
+    text-align: center;
+}
+.s2-card-2{
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+    background-image: url(/assets/img/accesories.jpg);
+    color:beige;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+.s2-card-2:hover{
+    box-shadow: 20px 20px 20px 20px black;
+    transition: 1s;
+    }
+
+.s2-card-2 h3{
+    margin-top: 10px;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+}
+.s2-card-2 p{
+    display: flex;
+    text-align: center;
+}
+
+.s2-card-3{
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+    background-image: url(/assets/img/custom.jpeg);
+    color:beige;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+.s2-card-3:hover{
+    box-shadow: 20px 20px 20px 20px black;
+    transition: 1s;
+    }
+
+.s2-card-3 h3{
+    margin-top: 10px;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+}
+.s2-card-3 p{
+    display: flex;
+    text-align: center;
+}
+
+/*footer*/
+
+footer{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+}
+
+.logofooter{
+    width: 200px;
+    height: 160px;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact h4{
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.contact ul{
+    color: antiquewhite;
+    flex-direction: column;
+    align-items: baseline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 40px;
+    
+}
+.contact-itu{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-caba{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-logos{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fblogo{
+    width: 40px;
+    height: 40px;
+}
+
+.fblogo:hover{
+    width: 50px;
+    height: 50px;
+    transition: 0.5s
+}
+
+.iglogo{
+    width: 40px;
+    height: 40px;
+}
+
+.iglogo:hover{
+    width: 50px;
+    height: 50px;
+    transition: 0.4s
+}
+.twlogo{
+    width: 40px;
+    height: 40px;
+}
+.twlogo:hover{
+    width: 50px;
+    height: 50px;
+    transition: 0.4s
+}
+
+/* Instruments */
+
+body{
+    background: antiquewhite;
+    background-image: url(/assets/img/black-metal-texture-wallpaper-×-metal-texture-wallpaper.jpg);
+}
+
+.instruments{
+    background:rgb(179, 48, 48) ;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+.categories{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+}
+
+.item-name{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.item-card{
+    background: black;
+    color: antiquewhite;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    margin: 30px;
+    gap: 15px;
+}
+
+.instrument-img{
+    width: 150px;
+    height: 190px;
+    align-self: center;
+    border-radius: 4px;
+}
+
+.item-price{
+    background: rgb(237, 237, 168);
+    color: rgb(25, 23, 23);
+    width: 95px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.item-price:hover{
+    box-shadow: 1px 1px 1px 4px rgb(243, 243, 99);
+    cursor: default;
+}
