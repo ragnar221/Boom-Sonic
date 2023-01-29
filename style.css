@@ -310,6 +310,7 @@ body{
     justify-content: center;
     text-align: center;
     border-radius: 4px;
+    margin-bottom: 80px;
 
 }
 
@@ -332,6 +333,7 @@ body{
 
 .item-card{
     background: black;
+    background-image: url(/assets/img/black-metal-texture-wallpaper-×-metal-texture-wallpaper.jpg);
     color: antiquewhite;
     width: 350px;
     height: 350px;
@@ -342,11 +344,31 @@ body{
     border-radius: 4px;
     margin: 30px;
     gap: 15px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+.item-card:hover{
+    box-shadow: 15px 15px 15px 15px black;
+    transition: 0.5s;
 }
 
 .instrument-img{
     width: 150px;
     height: 190px;
+    align-self: center;
+    border-radius: 4px;
+}
+
+.batery-img{
+    width: 200px;
+    height: 170px;
+    align-self: center;
+    border-radius: 4px;
+}
+
+.keyboard-img{
+    width: 300px;
+    height: 130px;
     align-self: center;
     border-radius: 4px;
 }
@@ -365,6 +387,6 @@ body{
 }
 
 .item-price:hover{
-    box-shadow: 1px 1px 1px 4px rgb(243, 243, 99);
+    box-shadow: 2px 2px 2px 4px rgb(243, 243, 99);
     cursor: default;
 }
