@@ -642,9 +642,26 @@ body{
 
 /*accesorios*/
 
+.categories-title{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    color: burlywood;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .amp-img{
     width: 260px;
     height: 260px;
+    align-self: center;
+    border-radius: 4px;
+}
+
+.pedal-img{
+    width: 260px;
+    height: 220px;
     align-self: center;
     border-radius: 4px;
 }
