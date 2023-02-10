@@ -699,6 +699,20 @@ body{
     text-align: center;
 }
 
+.section-registry{
+    background: rgb(179, 48, 48);
+    width: 1000px;
+    display: flex;
+    align-self: center;
+    border-radius: 1rem;
+    margin: 10px;
+}
+
+.registry-title{
+    display: flex;
+    margin: 10px;
+}
+
 .registry-intro{
     font-size: 26px;
     color: antiquewhite;
@@ -717,8 +731,16 @@ body{
     margin: 200px;
 }
 
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
 .registry-data{
     width: 200px;
+    border-radius: 5px;
+    background: black;
+    color: antiquewhite;
 }
 
 .instrument-preferences{
@@ -736,4 +758,12 @@ input{
     border-radius: 1em;
     width: 100px;
     height: 40px;
+    background: black;
+    color: antiquewhite;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.submit-button:hover{
+    box-shadow: 2px 2px 2px 2px;
+    transition: 0.3s;
 }

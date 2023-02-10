@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>¡Registrate y obtene grandes beneficios!</h1>
+    <h1 class="registry-title">¡Registrate y obtene grandes beneficios!</h1>
     <p class="registry-intro">Crea tu cuenta y obten información sobre los nuevos productos, cupones de descuendo con tus compras, participa en sorteos y muchas cosas mas</p>
-    <section>
+    <section class="section-registry">
     <form class="registry" action="submit">
         <label for="name">Nombre</label>
         <input class="registry-data" type="text" id="name" placeholder="ingrese su nombre">
@@ -19,7 +19,7 @@
         <label for="age">Edad</label>
         <input class="registry-data" type="date" id="age">
         <label for="d.n.i">D.N.I</label>
-        <input class="registry-data" type="number" id="d.n.i" placeholder="ingrese su numero de d.n.i">
+        <input class="registry-data" type="number" id="d.n.i" maxlength="8" placeholder="ingrese su numero de d.n.i">
         <label for="email">E-Mail</label>
         <input class="registry-data" type="email" id="email" placeholder="Ingrese su E-Mail">
         <label for="phone">Numero de telefono</label>
@@ -40,11 +40,9 @@
             <input type="radio" id="all" name="instrumentos">
        </div>
         <label for="submit">Enviar</label>
-        <input type="submit" id="submit" name="enviar">
+        <input class="submit-button" type="submit" id="submit" name="enviar">
     </form>
     </section>
-
     <p class="return"><a class="return-link" href="/index.html">Volver</a></p>
-    
 </body>
 </html>
