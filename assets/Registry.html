@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>¡Registrate y obtene grandes beneficios!</h1>
+    <p class="registry-intro">Crea tu cuenta y obten información sobre los nuevos productos, cupones de descuendo con tus compras, participa en sorteos y muchas cosas mas</p>
+    <section>
+    <form class="registry" action="submit">
+        <label for="name">Nombre</label>
+        <input class="registry-data" type="text" id="name" placeholder="ingrese su nombre">
+        <label for="adress">Dirección</label>
+        <input class="registry-data" type="text" id="adress" placeholder="ingrese su dirección">
+        <label for="age">Edad</label>
+        <input class="registry-data" type="date" id="age">
+        <label for="d.n.i">D.N.I</label>
+        <input class="registry-data" type="number" id="d.n.i" placeholder="ingrese su numero de d.n.i">
+        <label for="email">E-Mail</label>
+        <input class="registry-data" type="email" id="email" placeholder="Ingrese su E-Mail">
+        <label for="phone">Numero de telefono</label>
+        <input class="registry-data" type="number" id="phone" placeholder="Ingrese su numero de telefono">
+        <p>Instrumentos favoritos</p>
+        <div class="instrument-preferences">
+            <label for="guitars">Guitarras</label>
+            <input type="radio" id="guitars" name="instrumentos">
+            <label for="bass">Bajos</label>
+            <input type="radio" id="bass" name="instrumentos">
+            <label for="drums">Baterias</label>
+            <input type="radio" id="drums" name="instrumentos">
+            <label for="keyboards">Teclados</label>
+            <input type="radio" id="keyboards" name="instrumentos">
+            <label for="micros">microfonos</label>
+            <input type="radio" id="micros" name="instrumentos">
+            <label for="all">todos</label>
+            <input type="radio" id="all" name="instrumentos">
+       </div>
+        <label for="submit">Enviar</label>
+        <input type="submit" id="submit" name="enviar">
+    </form>
+    </section>
+
+    <p class="return"><a class="return-link" href="/index.html">Volver</a></p>
+    
+</body>
+</html>
