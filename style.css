@@ -448,7 +448,7 @@ footer{
 
     h1{
         font-size: 40px;
-        margin-bottom: 40px;
+        margin-top: 270px;
         width: 400px;
     }
 
@@ -459,7 +459,7 @@ footer{
     .s1-data{
         font-size: 30px;
         width: 400px;
-        
+        /*margin-top: 400px;*/
     }
 
     .section-2{
@@ -529,12 +529,13 @@ footer{
     h1{
         font-size: 45px;
         width: 400px;
-        margin-bottom: 100px;
+        margin-top: 320px;
     }
 
     .s1-data{
         font-size: 25px;
         width: 300px;
+        margin-bottom: none;
     }
 
     .section-2{
