@@ -5,12 +5,17 @@
     list-style-type: none;
 }
 
-
+:root{
+    font-family: 'Cinzel', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Michroma', sans-serif;
+}
 
 /*navegador*/
 
 nav{
-    background-color: rgb(179, 48, 48);
+    background: rgb(1,0,13);
+    background: linear-gradient(225deg, rgba(1,0,13,1) 4%, rgba(245,11,35,1) 61%, rgba(218,20,37,1) 100%);
     width: 100%;
     height: 100px;
     position: fixed;
@@ -25,18 +30,19 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 25px;
+    margin: 25px;
     width: 40px;
     height: 36px;
     border-radius: 7px;
-    background-color: rgb(179, 48, 48);
+    background: rgb(1,0,13);
     cursor: pointer;
+    display: none;
 }
 
 .menu-button span {
     width: 40px;
     height: 4px;
-    background:black;
+    background: rgb(231, 20, 20);
     display: none;
 }
 
@@ -48,11 +54,11 @@ nav{
     display: none;
     position: fixed;
     text-align: center;
-    background:brown;
+    background: linear-gradient(225deg, rgba(1,0,13,1) 4%, rgba(245,11,35,1) 61%, rgba(218,20,37,1) 100%);
     border-radius: 7px;
     padding: 20px;
     width: 150px;
-    height: 190px;
+    height: 215px;
     margin: 10px auto;   
 }
 
@@ -64,17 +70,19 @@ nav{
     color: #fafafa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
-    background: rgb(179, 48, 48);
+    background: linear-gradient(225deg, rgba(1,0,13,1) 4%, rgba(245,11,35,1) 61%, rgba(218,20,37,1) 100%);
     border-radius: 7px;
+    border-style: groove;
+    border-color: black;
     gap: 10px;
 }
 
 .toggle-link{
     text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
+    font-family: 'Michroma', sans-serif;
+    font-size: 16px;
     color:black;
-    font-weight: 500;
+    font-weight: 550;
 }
 
 .cart-toggle{
@@ -103,7 +111,7 @@ ul{
 .nav-link{
    text-decoration: none;
    font-size: 20px;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-family: 'Cinzel', serif;
    color: antiquewhite;
    background: black;
    border-radius: 1rem;
@@ -153,7 +161,7 @@ body{
 h1{
     color: burlywood;
     font-size: 70px;
-   
+    font-family: 'Lobster', cursive;
     align-self: center;
 }
 
@@ -162,6 +170,8 @@ h1{
     display: flex;
     font-size: 40px;
     text-align: center;
+    font-family: 'Michroma', sans-serif;
+    margin-bottom: 500px;
 }
 
 
@@ -189,7 +199,7 @@ h1{
     justify-content: space-around;
     align-items: center;
     gap: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Michroma', sans-serif;
     font-weight: 600;
     margin-top: 50px;
     box-shadow: 10px 10px 10px 10px black;
@@ -208,6 +218,7 @@ h1{
 .s2-card-1 p{
     display: flex;
     text-align: center;
+    font-family: 'Michroma', sans-serif;
 }
 .s2-card-2{
     width: 300px;
@@ -221,7 +232,7 @@ h1{
     justify-content: space-around;
     align-items: center;
     gap: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Michroma', sans-serif;
     font-weight: 600;
     margin-top: 50px;
     box-shadow: 10px 10px 10px 10px black;
@@ -255,7 +266,7 @@ h1{
     justify-content: space-around;
     align-items: center;
     gap: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Michroma', sans-serif;
     font-weight: 600;
     margin-top: 50px;
     box-shadow: 10px 10px 10px 10px black;
@@ -405,12 +416,16 @@ footer{
         justify-content: space-between;
     }
 
+    .menu-button{
+        display: flex;
+    }
+
     .menu-button span{
         display: flex;
     }
 
     .toggle{
-        margin-left: 500px;
+        margin-left: 480px;
     }
 
 
@@ -426,7 +441,7 @@ footer{
 
     .section-1{
         width: 100%;
-        height: 400px;
+        height: 800px;
         background-position: center;
         margin-top: 100px;
     }
@@ -434,6 +449,7 @@ footer{
     h1{
         font-size: 40px;
         margin-bottom: 40px;
+        width: 400px;
     }
 
     .intro{
@@ -503,7 +519,7 @@ footer{
 
     .section-1{
         width: 100%;
-        height: 500px;
+        height: 700px;
     }
 
     .intro{
@@ -550,8 +566,13 @@ body{
     background-image: url(/assets/img/black-metal-texture-wallpaper-×-metal-texture-wallpaper.jpg);
 }
 
+.categories-title{
+    font-family: 'Lobster', cursive;
+}
+
 .instruments{
-    background:rgb(179, 48, 48) ;
+    background: rgb(1,0,13);
+    background: linear-gradient(225deg, rgba(1,0,13,1) 4%, rgba(245,11,35,1) 61%, rgba(218,20,37,1) 100%);
     margin: 10px;
     display: flex;
     flex-direction: row;
@@ -560,12 +581,13 @@ body{
     text-align: center;
     border-radius: 4px;
     margin-bottom: 80px;
+    box-shadow: 8px 8px 8px 8px;
 
 }
 
 .categories{
     font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Lobster', cursive;
     font-weight: 600;
     color: antiquewhite;
     display: flex;
@@ -575,8 +597,8 @@ body{
 }
 
 .item-name{
-    font-size: 24px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-family: 'Michroma', sans-serif;
     font-weight: 800;
 }
 
@@ -606,6 +628,7 @@ body{
     height: 190px;
     align-self: center;
     border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px rgb(21, 21, 21);
 }
 
 .batery-img{
@@ -613,6 +636,7 @@ body{
     height: 170px;
     align-self: center;
     border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px rgb(21, 21, 21);
 }
 
 .keyboard-img{
@@ -620,18 +644,19 @@ body{
     height: 130px;
     align-self: center;
     border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px rgb(21, 21, 21);
 }
 
 .item-price{
     background: rgb(237, 237, 168);
     color: rgb(25, 23, 23);
-    width: 95px;
+    width: 115px;
     height: 25px;
     display: flex;
     justify-content: center;
     align-self: center;
     border-radius: 4px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Michroma', sans-serif;
     font-weight: 700;
 }
 
@@ -641,12 +666,13 @@ body{
 }
 
 .return{
-    background: brown;
+    background: rgb(1,0,13);
+    background: linear-gradient(225deg, rgba(1,0,13,1) 4%, rgba(245,11,35,1) 61%, rgba(218,20,37,1) 100%);
     border-radius: 1rem;
     width: 200px;
     font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 700;
+    font-family: 'Michroma', sans-serif;
+    font-weight: 800;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -661,6 +687,7 @@ body{
 
 .return-link{
     text-decoration: none;
+    color: black;
     cursor: pointer;
 }
 
@@ -668,7 +695,6 @@ body{
 
 .categories-title{
     font-size: 80px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 600;
     color: burlywood;
     display: flex;
@@ -677,10 +703,11 @@ body{
 }
 
 .amp-img{
-    width: 260px;
-    height: 260px;
+    width: 240px;
+    height: 240px;
     align-self: center;
     border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px rgb(21, 21, 21);
 }
 
 .pedal-img{
@@ -688,6 +715,7 @@ body{
     height: 220px;
     align-self: center;
     border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px rgb(21, 21, 21);
 }
 
 /*registro*/
@@ -700,12 +728,16 @@ body{
 }
 
 .section-registry{
-    background: rgb(179, 48, 48);
-    width: 1000px;
+    background: rgb(1,0,13);
+    background: linear-gradient(225deg, rgba(1,0,13,1) 4%, rgba(245,11,35,1) 61%, rgba(218,20,37,1) 100%);
+    width: 80%;
     display: flex;
     align-self: center;
+    justify-content: center;
+    align-content: center;
     border-radius: 1rem;
     margin: 10px;
+    box-shadow: 8px 8px 8px 8px;
 }
 
 .registry-title{
@@ -731,9 +763,10 @@ body{
     margin: 200px;
 }
 
-label{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.registry-label{
+    font-family: 'Michroma', sans-serif;
     font-weight: 600;
+    display: flex;
 }
 
 .registry-data{
@@ -745,6 +778,7 @@ label{
 
 .instrument-preferences{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -760,10 +794,18 @@ input{
     height: 40px;
     background: black;
     color: antiquewhite;
-    box-shadow: 1px 1px 1px 1px;
+    font-family: 'Michroma', sans-serif;
+    font-weight: 600;
+    box-shadow: 1px 1px 1px 6px;
 }
 
 .submit-button:hover{
-    box-shadow: 2px 2px 2px 2px;
-    transition: 0.3s;
+    color: rgb(179, 174, 168);
+    transition: 0.8s;
+}
+
+@media (max-width:768px){
+    .instrument-preferences{
+        flex-direction: column;
+    }
 }
