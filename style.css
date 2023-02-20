@@ -188,6 +188,17 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    animation-duration: 3s;
+    animation-name: introanimate;
+}
+
+@keyframes introanimate {
+    from {
+        margin-bottom: 100%;
+    }
+    to {
+        margin-bottom: 0%;
+    }
 }
 
 h1{
@@ -602,6 +613,17 @@ body{
 
 .categories-title{
     font-family: 'Lobster', cursive;
+    animation-duration: 2s;
+    animation-name: titleappears;
+}
+
+@keyframes titleappears {
+    from {
+        margin-right: 100%;
+    }
+    to {
+        margin-right: 0%;
+    }
 }
 
 .instruments{
@@ -628,6 +650,18 @@ body{
     justify-content: center;
     text-align: center;
     margin: 40px;
+    animation-duration: 1s;
+    animation-name: categoriesappears;
+}
+
+@keyframes categoriesappears {
+    from {
+        margin-top: 100%;
+    }
+
+    to {
+        margin-top: 0%;
+    }
 }
 
 .item-name{
@@ -650,6 +684,17 @@ body{
     margin: 30px;
     gap: 15px;
     box-shadow: 10px 10px 10px 10px black;
+    animation-duration: 3s;
+    animation-name: cardappears;
+}
+
+@keyframes cardappears{
+    from{
+        height: 0px;
+    }
+    to {
+        height: 350px;
+    }
 }
 
 .item-card:hover{
@@ -663,6 +708,17 @@ body{
     align-self: center;
     border-radius: 4px;
     box-shadow: 5px 5px 5px 5px rgb(21, 21, 21);
+    animation-duration: 3s;
+    animation-name: cardappearsimg;
+}
+
+@keyframes cardappearsimg {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 190px;
+    }
 }
 
 .batery-img{
@@ -712,6 +768,17 @@ body{
     align-self: center;
     margin: 20px;
     box-shadow: 1px 1px 4px 10px;
+    animation-duration: 2s;
+    animation-name: returnappears;
+}
+
+@keyframes returnappears {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
 }
 
 .return:hover{
@@ -742,6 +809,17 @@ body{
     align-self: center;
     border-radius: 4px;
     box-shadow: 5px 5px 5px 5px rgb(21, 21, 21);
+    animation-duration: 3s;
+    animation-name: ampappears;
+}
+
+@keyframes ampappears {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 240px;
+    }
 }
 
 .pedal-img{
@@ -750,6 +828,17 @@ body{
     align-self: center;
     border-radius: 4px;
     box-shadow: 5px 5px 5px 5px rgb(21, 21, 21);
+    animation-duration: 3s;
+    animation-name: pedalapprears;
+}
+
+@keyframes pedalappears {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 220px;
+    }
 }
 
 /*registro*/
@@ -772,17 +861,50 @@ body{
     border-radius: 1rem;
     margin: 10px;
     box-shadow: 8px 8px 8px 8px;
+    animation-duration: 2s;
+    animation-name: registryappears;
+}
+
+@keyframes registryappears{
+    from {
+        margin-top: 100%;
+    }
+    to {
+        margin-top: 0%;
+    }
 }
 
 .registry-title{
     display: flex;
     margin: 10px;
+    animation-duration: 2s;
+    animation-name: regtitleappears;
+}
+
+@keyframes regtitleappears {
+    from {
+        width: 300%;
+    }
+    to {
+        width: 60%;
+    }
 }
 
 .registry-intro{
     font-size: 26px;
     color: antiquewhite;
     font-weight: 500;
+    animation-duration: 2s;
+    animation-name: regintroappears;
+}
+
+@keyframes regintroappears{
+    from {
+        width: 300%;
+    }
+    to {
+        width: 110%;
+    }
 }
 
 .registry{
