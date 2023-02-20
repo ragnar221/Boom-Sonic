@@ -613,16 +613,16 @@ body{
 
 .categories-title{
     font-family: 'Lobster', cursive;
-    animation-duration: 2s;
+    animation-duration: 2.2s;
     animation-name: titleappears;
 }
 
 @keyframes titleappears {
     from {
-        margin-right: 100%;
+        margin-top: 100%;
     }
     to {
-        margin-right: 0%;
+        margin-top: 0%;
     }
 }
 
@@ -650,7 +650,7 @@ body{
     justify-content: center;
     text-align: center;
     margin: 40px;
-    animation-duration: 1s;
+    animation-duration: 2.4s;
     animation-name: categoriesappears;
 }
 
@@ -774,10 +774,10 @@ body{
 
 @keyframes returnappears {
     from {
-        margin-left: 100%;
+        margin-top: 100%;
     }
     to {
-        margin-left: 0%;
+        margin-top: 0%;
     }
 }
 
@@ -861,7 +861,7 @@ body{
     border-radius: 1rem;
     margin: 10px;
     box-shadow: 8px 8px 8px 8px;
-    animation-duration: 2s;
+    animation-duration: 2.4s;
     animation-name: registryappears;
 }
 
@@ -883,10 +883,10 @@ body{
 
 @keyframes regtitleappears {
     from {
-        width: 300%;
+        margin-top: 100%;
     }
     to {
-        width: 60%;
+        margin-top: 0%;
     }
 }
 
@@ -894,16 +894,16 @@ body{
     font-size: 26px;
     color: antiquewhite;
     font-weight: 500;
-    animation-duration: 2s;
+    animation-duration: 2.2s;
     animation-name: regintroappears;
 }
 
 @keyframes regintroappears{
     from {
-        width: 300%;
+        margin-top: 100%;
     }
     to {
-        width: 110%;
+        margin-top: 0%;
     }
 }
 
