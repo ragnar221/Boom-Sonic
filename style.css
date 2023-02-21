@@ -453,7 +453,7 @@ footer{
     transition: 0.4s
 }
 
-@media (max-width: 768px){
+@media (min-width: 768px) and (max-width:1024px){
     nav{
         width: 100%;
         height: auto;
@@ -541,7 +541,7 @@ footer{
     }
 }
 
-@media (max-width: 576px) {
+@media (min-width:320px) and (max-width: 736px) {
     nav{
         width: 100%;
         height: auto;
@@ -610,6 +610,7 @@ body{
     background: antiquewhite;
     background-image: url(/assets/img/black-metal-texture-wallpaper-×-metal-texture-wallpaper.jpg);
 }
+
 
 .categories-title{
     font-family: 'Lobster', cursive;
