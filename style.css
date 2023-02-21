@@ -903,6 +903,12 @@ body{
     }
 }
 
+
+@media (max-width:576px){
+    .categories-title{
+        font-size: 60px;
+    }
+}
 /*registro*/
 
 body{
