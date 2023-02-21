@@ -933,11 +933,12 @@ footer{
 }
 /*registro*/
 
-body{
+.registry-body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    background: url(/assets/img/black-metal-texture-wallpaper-×-metal-texture-wallpaper.jpg);
 }
 
 .section-registry{
