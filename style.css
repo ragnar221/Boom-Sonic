@@ -500,7 +500,7 @@ footer{
     }
 
     .toggle{
-        margin-left: 730px;
+        margin-left: 500px;
     }
 
 
@@ -573,7 +573,7 @@ footer{
     }
 }
 
-@media (max-width: 736px) {
+ @media (max-width: 736px) {
     nav{
         width: 100%;
         height: auto;
