@@ -175,6 +175,7 @@ body{
 .section-1{
     background-color: black;
     background-image: url(/assets/img/2020_07_electric-guitar-wallpaper-2560x1080-fhd-1080p-desktop-backgrounds-for-pc-mac.jpg);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     height: 900px;
@@ -188,6 +189,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     animation-duration: 3s;
     animation-name: introanimate;
 }
@@ -228,6 +230,7 @@ h1{
     width: 100%;
     height: 400px;
     justify-content: space-around;
+    align-items: center;
 }
 
 .s2-card-1{
@@ -342,7 +345,7 @@ footer{
     display: flex;
     flex-direction: column;
     height: 470px;
-    /*width: 100%;*/
+    width: 100%;
 }
 
 .logofooter{
@@ -453,6 +456,34 @@ footer{
     transition: 0.4s
 }
 
+@media (min-width:1200px) and (max-width:1600px){
+    
+    .intro {
+        margin-top: 80px;
+    }
+    .intro h1{
+        font-size: 70px;
+    }
+
+    .intro p {
+        font-size: 40px;
+        width: 1000px;
+    }
+
+    .section-2{
+        justify-content: space-evenly;
+    }
+    
+    .footer-speach{
+        display: none;
+    }
+    
+    .speach{
+        display: none;
+    }
+
+}
+
 @media (min-width: 768px) and (max-width:1024px){
     nav{
         width: 100%;
@@ -469,7 +500,7 @@ footer{
     }
 
     .toggle{
-        margin-left: 480px;
+        margin-left: 730px;
     }
 
 
@@ -488,10 +519,11 @@ footer{
         height: 800px;
         background-position: center;
         margin-top: 100px;
+        text-align: center;
     }
 
     h1{
-        font-size: 40px;
+        font-size: 50px;
         margin-top: 270px;
         width: 400px;
     }
@@ -501,7 +533,7 @@ footer{
     }
 
     .s1-data{
-        font-size: 30px;
+        font-size: 25px;
         width: 400px;
         /*margin-top: 400px;*/
     }
@@ -549,6 +581,14 @@ footer{
 
     .nav-links{
         display: none;
+    }
+
+    .menu-button {
+        display: flex;
+    }
+
+    .menu-button span {
+        display: flex;
     }
 
     .toggle{
@@ -630,7 +670,7 @@ footer{
     }
 
     .toggle{
-        margin-left: 200px;
+        margin-left: 220px;
     }
 
 
@@ -700,9 +740,8 @@ footer{
 
 .instruments-header{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
-    align-content: space-around;
     width: 100%;
     height: auto;
 }
@@ -712,7 +751,9 @@ footer{
     background: black;
     background-image: url(/assets/img/black-metal-texture-wallpaper-×-metal-texture-wallpaper.jpg);
     width: 100%;
-    height: 12300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -844,12 +885,13 @@ footer{
     background: linear-gradient(225deg, rgba(1,0,13,1) 4%, rgba(245,11,35,1) 61%, rgba(218,20,37,1) 100%);
     border-radius: 1rem;
     width: 200px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Michroma', sans-serif;
     font-weight: 800;
     display: flex;
     justify-content: center;
     align-self: center;
+    text-align: center;
     margin-top: 20px;
     box-shadow: 1px 1px 4px 10px;
 }
@@ -872,7 +914,9 @@ footer{
     background: black;
     background-image: url(/assets/img/black-metal-texture-wallpaper-×-metal-texture-wallpaper.jpg);
     width: 100%;
-    height: 10700px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .categories-title{
