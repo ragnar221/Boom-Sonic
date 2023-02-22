@@ -31,7 +31,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 25px;
+    margin-right: 140px;
     width: 40px;
     height: 36px;
     border-radius: 7px;
@@ -47,9 +47,11 @@ nav{
     display: none;
 }
 
+
 .menu-toggle {
     display: none;
 }
+
 
 .toggle{
     display: none;
@@ -60,7 +62,8 @@ nav{
     padding: 20px;
     width: 150px;
     height: 215px;
-    margin: 10px auto;   
+    margin: 10px auto; 
+    margin-right: 60px auto;  
     animation-duration: 0.6s;
     animation-name: toggledown;
 }
@@ -498,11 +501,6 @@ footer{
     .menu-button span{
         display: flex;
     }
-
-    .toggle{
-        /*margin-left: 535px;*/
-    }
-
 
     .nav-links{
         display: none;
