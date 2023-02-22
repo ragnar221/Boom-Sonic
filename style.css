@@ -46,7 +46,9 @@ nav{
     background: rgb(231, 20, 20);
     display: none;
 }
-
+.menu {
+    align-self: center;
+}
 
 .menu-toggle {
     display: none;
